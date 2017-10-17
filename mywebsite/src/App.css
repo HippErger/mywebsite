@@ -29,14 +29,19 @@
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-footer > div {
-  margin: auto;
+.Footer-div {
+
+  display: flex;
+  flex-direction: row;
+
 }
 
 .Footer-tiles {
+  margin: 10px auto;
   color: red;
-  padding: 5px 20px;
+  width: 250px;
+  border: solid 2px black;
 }
