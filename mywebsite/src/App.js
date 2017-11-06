@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import './stylesheets/App.css';
 
 // <img src={logo} className="App-logo" alt="logo" />
 
@@ -12,7 +12,7 @@ class App extends Component {
 
         </header>
         <p className="App-intro">
-          Let me sell me to you.
+          Me sells me to you.
         </p>
         <footer>
           <div className= "Footer-div">
