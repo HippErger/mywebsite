@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './stylesheets/App.css';
+import MyHeader from './components/MyHeader';
 
 // <img src={logo} className="App-logo" alt="logo" />
 
@@ -8,9 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-
-        </header>
+        <MyHeader />
         <p className="App-intro">
           Me sells me to you.
         </p>
@@ -23,6 +22,7 @@ class App extends Component {
             <h3 className="Footer-tiles" > Job 3 </h3>
             <h3 className="Footer-tiles" > Job 4 </h3>
           </div>
+
         </footer>
       </div>
     );
