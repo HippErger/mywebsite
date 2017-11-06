@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
 // import HeaderBar from 'header-bar';
+import {Nav, NavItem} from 'react-bootstrap';
 
 function MyHeader () {
   return (
-    <h1>this is my header</h1>
+    <Nav bsStyle="tabs">
+      <NavItem eventKey={1} title="Item" href="/home">NavItem 1 content</NavItem>
+      <NavItem eventKey={2} title="Item">NavItem 2 content</NavItem>
+      <NavItem eventKey={3} title="Item"> NavItem 3 content</NavItem>
+    </Nav>
+
   )
 }
 // class MyHeader extends Component() {
