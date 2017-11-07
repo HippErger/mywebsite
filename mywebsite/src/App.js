@@ -25,7 +25,6 @@ class App extends Component {
             <img src={Masks} className="Footer-tiles" alt="Prop Shop" />
             <img src={evTool} className="Footer-tiles" alt="EVtool" />
           </div>
-
         </footer>
       </div>
     );
