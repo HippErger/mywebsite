@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #004367;
 }
 
 .App-logo {
@@ -33,7 +34,6 @@ footer {
 }
 
 .Footer-div {
-
   display: flex;
   flex-direction: row;
 
@@ -43,5 +43,21 @@ footer {
   margin: 10px auto;
   color: red;
   width: 250px;
+  height: 100px;
   border: solid 2px black;
+}
+
+.Footer-tiles:hover {
+ background-image:
+   repeating-radial-gradient(
+     circle at 0 0,
+     #eee,
+     #ccc 50px
+   );
+}
+
+.Center-pic {
+  margin: auto;
+  max-width: 1000px;
+  height: 300px;
 }

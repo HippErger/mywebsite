@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './stylesheets/App.css';
 import MyHeader from './components/MyHeader';
+import zenRocks from './static/zenRocks.jpg';
+import Artemis from './static/artemisAtNight.jpg';
+import evTool from './static/evTool.jpeg';
+import BadParents from './static/parents.jpg';
+import Masks from './static/comedia.jpg';
 
 // <img src={logo} className="App-logo" alt="logo" />
 
@@ -10,17 +15,15 @@ class App extends Component {
     return (
       <div className="App">
         <MyHeader />
-        <p className="App-intro">
-          Me sells me to you.
-        </p>
+        <img src={Artemis} className="Center-pic" alt="Chocolate Lab" />
         <footer>
           <div className= "Footer-div">
-            <h3 className="Footer-tiles" > Towers of Hanoi </h3>
-            <h3 className="Footer-tiles" > Job 2 </h3>
+            <img src={zenRocks} className="Footer-tiles" alt="Towers of Hanoi" />
+            <img src={BadParents} className="Footer-tiles" alt="Crazy Parent" />
           </div>
           <div className= "Footer-div">
-            <h3 className="Footer-tiles" > Job 3 </h3>
-            <h3 className="Footer-tiles" > Job 4 </h3>
+            <img src={Masks} className="Footer-tiles" alt="Prop Shop" />
+            <img src={evTool} className="Footer-tiles" alt="EVtool" />
           </div>
 
         </footer>
@@ -30,3 +33,5 @@ class App extends Component {
 }
 
 export default App;
+
+// <h3 className="Footer-tiles" > Towers of Hanoi </h3>
