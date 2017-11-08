@@ -32,5 +32,3 @@ class App extends Component {
 }
 
 export default App;
-
-// <h3 className="Footer-tiles" > Towers of Hanoi </h3>
