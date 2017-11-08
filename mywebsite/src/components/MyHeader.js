@@ -14,7 +14,10 @@ function MyHeader () {
       </a>
       <a href="https://www.linkedin.com/in/clayton-berger/">
         <i class="fa fa-linkedin-square fa-2x heady-Icon" aria-hidden="true"></i>
-      </a>  
+      </a>
+      <a>
+        <i class="fa fa-twitter-square fa-2x heady-Icon" aria-hidden="true"></i>
+      </a>
     </Nav>
   )
 }
