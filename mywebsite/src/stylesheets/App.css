@@ -44,7 +44,8 @@ footer {
   color: red;
   width: 250px;
   height: 100px;
-  border: solid 2px black;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
 }
 
 .Footer-tiles:hover {
