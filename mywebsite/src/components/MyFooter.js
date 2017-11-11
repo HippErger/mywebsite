@@ -21,4 +21,3 @@ function MyFooter() {
 }
 
 export default MyFooter;
-// This is a note to come back to
