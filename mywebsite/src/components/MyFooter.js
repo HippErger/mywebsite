@@ -13,8 +13,8 @@ function MyFooter() {
         <img src={BadParents} className="Footer-tiles" alt="Crazy Parent" />
       </div>
       <div className= "Footer-div">
-        <img src={Masks} className="Footer-tiles" alt="Prop Shop" />
         <img src={evTool} className="Footer-tiles" alt="EVtool" />
+        <img src={Masks} className="Footer-tiles" alt="Prop Shop" />
       </div>
     </footer>
   )
